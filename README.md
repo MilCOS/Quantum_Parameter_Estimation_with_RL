@@ -11,9 +11,13 @@ For example, the Hamiltonian with the dephasing dynamics,
 
 <img src="http://latex.codecogs.com/gif.latex?\partial_t\hat{\rho}(t)=-i\left[\hat{H}(t),\hat{\rho}(t)\right]+\frac{\gamma}{2}\left[\hat{\sigma}_{\vec n}\hat{\rho}(t)\hat{\sigma}_{\vec n}-\hat{\rho}(t)\right]."/>
 
+$$\partial_t\hat{\rho}(t)=-i\left[\hat{H}(t),\hat{\rho}(t)\right]+\frac{\gamma}{2}\left[\hat{\sigma}_{\vec n}\hat{\rho}(t)\hat{\sigma}_{\vec n}-\hat{\rho}(t)\right].$$
+
 The control field to be optimized is,
 
 <img src="http://latex.codecogs.com/gif.latex?\hat{H}(t)=\frac{1}{2}\omega_0\hat{\sigma}_3+{\vec u}(t)\cdot{\vec \sigma}."/>
+
+$$\hat{H}(t)=\frac{1}{2}\omega_0\hat{\sigma}_3+{\vec u}(t)\cdot{\vec \sigma}.$$
 
 The figure below shows the training procedure when the dephasing along the direction <img src="http://latex.codecogs.com/gif.latex?\vartheta=0.25\pi,~\phi=0"/>, the dephasing rate 0.1, and evolution time T=5.
 
